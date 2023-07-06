@@ -1,28 +1,25 @@
-import React from 'react';
-import IconButton from '@material-ui/core/IconButton';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import React from "react";
 
 function Intro() {
+    
+  //returning the actual component
+  return (
+    <section className="introductory-statement">
+      <div className="intro-statement-text">
+        Hello!
+        <br />
+        Thank you for clicking on my website.
+        <br />
+        My name is Dilini Ranaweera.
+      </div>
 
-    const buttonStyle = {
-        color: 'white'
-      };
-
-    //returning the actual component  
-    return (
-        <section className="introductory-statement">
-            <div className="intro-statement-text">
-                 Hello! Thank you for clicking on my website. My name is 
-                    Dilini Ranaweera. 
-            </div>
-            
-            <div className="drop-down-button">
-                <IconButton aria-label="delete" size="large" style={buttonStyle}>
-                    <ArrowDownwardIcon />
-                </IconButton>
-            </div>
-        </section>
-    )
+      <div className="drop-down-button">
+        <a class="btn" href="#about">
+          Learn More
+        </a>
+      </div>
+    </section>
+  );
 }
 
 export default Intro;
