@@ -9,7 +9,7 @@ import ScienceIcon from '@mui/icons-material/Science';
 import ArticleIcon from '@mui/icons-material/Article';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -29,7 +29,9 @@ function NavBar() {
       <div className="navigation-bar-wrapper">
         <AppBar position="static" color="#ffffff" className={classes.appBar}>
           <Toolbar className={classes.toolbar}>
-            <Button color="inherit" startIcon={<HardwareIcon />}> Work Experiences </Button>
+            <Link to="work-grid-wrapper" smooth duration={1000}>
+              <Button color="inherit" startIcon={<HardwareIcon />}> Work Experiences </Button>
+            </Link>
             <Button color="inherit" startIcon={<ScienceIcon />}> Personal Projects</Button>
             <Button color="inherit" startIcon={<ArticleIcon />}>Resume</Button>
             <a href="https://www.linkedin.com/in/dilini-ranaweera-295418220/" target="_blank" rel="noopener noreferrer">
