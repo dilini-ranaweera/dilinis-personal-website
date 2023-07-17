@@ -18,25 +18,34 @@
   display: inline-block;
   padding: 10px 20px;
   background-color:linear-gradient(120deg, #f1a9f1, #ADD8E6);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
+  border: 2px solid white;
   font-size: 16px;
   font-weight: 600;
   margin-left: 200px;
+  color: white;
+  transition: transform 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #303f9f;
+  background-color: white;
+  color: #ADD8E6;
+  transform: translateX(50px);
 }
 
 .about-me-wrapper {
   background-color: #f1a9f1;
   background-image: linear-gradient(120deg, #f1a9f1, #ADD8E6);
+  width: 100vw;
+  height: 100vh;
 }
 
 .about-me-text {
   color: #ffffff;
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
+  font-size: 150%;
+  padding-right: 10%;
+  padding-top: 10%;
 }
 
 .box {
@@ -49,6 +58,8 @@
   position: relative;
   max-height: 100%;
   max-width: 70%;
+  padding-left: 10%;
+  padding-top: 10%;
 }
 
 .title-wrk-grid-wrapper {
@@ -61,3 +72,15 @@ WorkExperience {
 WorkExperienceGrid {
   background-color: #8b828c;
 }
+
+.website-footer {
+  background-color: #f1a9f1;
+  background-image: linear-gradient(120deg, #f1a9f1, #ADD8E6);
+  text-align: center;
+  color: white;
+}
+
+.footer-class {
+  font-size: large;
+}
+

@@ -18,7 +18,7 @@ function Intro() {
 
       <Fade duration={1000} delay={1000} distance="30px">
         <Link to="navigation-bar-wrapper" smooth duration={1000}>
-          <a class="btn" href="#about">
+          <a class="btn">
             Learn More About Me!
           </a>
         </Link>
