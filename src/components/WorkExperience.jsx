@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   imageContainer: {
     width: "90%", 
-    height: "90%",
+    height: "50%",
     borderRadius: "50%",
     overflow: "hidden",
     display: "flex",
@@ -25,7 +25,6 @@ const WorkExperience = (props) => {
   const classes = useStyles();
 
   return (
-    <div className="AHHH">
       <section className="box">
         <div className={classes.imageContainer}>
           <img className={classes.image} src={props.imagePath} alt="" />
@@ -49,7 +48,6 @@ const WorkExperience = (props) => {
           </ul>
         </footer>
       </section>
-    </div>
   );
 };
 

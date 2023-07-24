@@ -48,10 +48,17 @@
   padding-top: 10%;
 }
 
+.grid-item {
+  display: flex;
+}
+
 .box {
   background: #ffffff;
-  border: solid 1px #ccc;
+  border-style: solid;
+  border-width: 3px;
+  background: linear-gradient(120deg, #f1a9f1, #ADD8E6);
   padding: 2.75em 1.75em 2.75em 1.75em;
+  flex: 1;
 }
 
 .image-class {
@@ -64,6 +71,10 @@
 
 .title-wrk-grid-wrapper {
   text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 350%;
+  background-color: linear-gradient(120deg, #f1a9f1, #ADD8E6);
+  font-weight: 650;
 }
 
 WorkExperience {
@@ -83,4 +94,3 @@ WorkExperienceGrid {
 .footer-class {
   font-size: large;
 }
-
