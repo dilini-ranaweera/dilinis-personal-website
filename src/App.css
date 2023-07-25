@@ -94,3 +94,16 @@ WorkExperienceGrid {
 .footer-class {
   font-size: large;
 }
+
+.personal-project-left-side {
+  margin-left: 3%;
+}
+.personal-project-right-side {
+  margin-left: 3%;
+}
+
+.personal-project-image {
+  margin-left: 15%;
+  width: 75%;
+  height: 75%;
+}
