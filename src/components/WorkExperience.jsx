@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     justifyContent: "center",
     margin: "auto",
     marginBottom: "4.25em",
-	border: "2px solid black",
+	  border: "2px solid black",
   },
   image: {
     width: "100%",

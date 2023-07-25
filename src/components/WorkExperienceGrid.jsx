@@ -1,11 +1,12 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import WorkExperience from "./WorkExperience.jsx";
+import Title from "./Title.jsx";
 
 function WorkExperienceGrid() {
   return (
     <div className="work-grid-wrapper">
-      <h2 className="title-wrk-grid-wrapper"> My Work Experiences </h2>
+      <Title TitleName="My Work Experiences"/>
       <Grid container className="grid-container" spacing={2}>
           <Grid item xs={4} className="grid-item">
               <WorkExperience
