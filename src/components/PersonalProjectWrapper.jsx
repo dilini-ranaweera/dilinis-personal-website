@@ -3,9 +3,9 @@ import PersonalProject from "./PersonalProject";
 import Title from "./Title.jsx";
 
 function PersonalProjectWrapper() {
-    const customStyle = {
-        marginLeft: "1.3%"
-      };
+  const customStyle = {
+    marginLeft: "1.3%",
+  };
   return (
     <div className="personal-project-wrapper">
       <Title TitleName="My Personal Projects" />
@@ -21,16 +21,20 @@ function PersonalProjectWrapper() {
                 club at Penn in January 2023, and we are incredibly excited to see what this next semester will
                 bring us :)"
         ProjectButtonDescriptor="Click this button to see CC+'s website!"
-        ProjectImageArray={[
-          {
-            src: "images/CreativeCodingPlusPhotoOne.jpg",
-            alt: "First Instagram Post",
-          },
-          {
-            src: "images/CreativeCodingPlusPhotoTwo.jpg",
-            alt: "First Roundtable Post",
-          },
-        ]}
+        PersonalProjectImagePath="CreativeCodingPlusPhotoOne.jpg"
+        PersonalProjectImageDescription="Creative Coding+ first Instagram post"
+        ProjectButtonLink="https://creativecoding.neocities.org/"
+      ></PersonalProject>
+      <PersonalProject
+        ProjectTitle="This Website! :)"
+        ProjectDescription="This website is one of my personal projects. It is built
+      using React.js, the Material UI Framework, react-reveal, and Bootstrap CSS Framework. This
+      website has given me a chance to design and implement a website with flexible and dynamic mobile 
+      design. I cannot wait to update this website as my experiences and achievments grow."
+        ProjectButtonDescriptor="Click here to see the source code of this website!"
+        ProjectButtonLink="https://github.com/dilini-ranaweera/dilinis-personal-website/tree/master"
+        PersonalProjectImagePath="meme.jpg"
+        PersonalProjectImageDescription="A silly meme that functions as a practical joke."
       ></PersonalProject>
       <h3 style={customStyle}> More to Come Soon!</h3>
     </div>

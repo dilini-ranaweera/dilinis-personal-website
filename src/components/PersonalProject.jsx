@@ -14,7 +14,12 @@ const PersonalProject = (props) => {
               <p className="personal-project-description">
                 {props.ProjectDescription}
               </p>
-              <a class="personal-project-button">
+              <br/>
+              <a
+                class="personal-project-button"
+                href={props.ProjectButtonLink}
+                target="_noopener"
+              >
                 {props.ProjectButtonDescriptor}
               </a>
             </div>
@@ -23,9 +28,9 @@ const PersonalProject = (props) => {
         <Grid item xs={6}>
           <Fade right="true" duration={1200} delay={600}>
             <img
-              src="CreativeCodingPlusPhotoOne.jpg"
+              src={props.PersonalProjectImagePath}
               className="personal-project-image"
-              alt="Creative Coding+ first Instagram post"
+              alt={props.PersonalProjectImageDescription}
             ></img>
           </Fade>
         </Grid>
