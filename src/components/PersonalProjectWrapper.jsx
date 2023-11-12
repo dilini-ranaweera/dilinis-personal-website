@@ -8,7 +8,7 @@ function PersonalProjectWrapper() {
   };
   return (
     <div className="personal-project-wrapper">
-      <Title TitleName="My Personal Projects" />
+      <Title TitleName="My Personal Projects" TitleClass="personal-project-title"/>
       <PersonalProject
         ProjectTitle="Creative Coding+ (CC+) Co-Founder, CFO, and Content Instructor"
         ProjectDescription="After sitting in Berger Auditorium for over 10 hours (completing 
@@ -28,9 +28,9 @@ function PersonalProjectWrapper() {
       <PersonalProject
         ProjectTitle="This Website! :)"
         ProjectDescription="This website is one of my personal projects. It is built
-      using React.js, the Material UI Framework, react-reveal, and Bootstrap CSS Framework. This
-      website has given me a chance to design and implement a website with flexible and dynamic mobile 
-      design. I cannot wait to update this website as my experiences and achievments grow."
+              using React.js, the Material UI Framework, react-reveal, and Bootstrap CSS Framework. This
+              website has given me a chance to design and implement a website with flexible and dynamic mobile 
+              design. I cannot wait to update this website as my experiences and achievments grow."
         ProjectButtonDescriptor="Click here to see the source code of this website!"
         ProjectButtonLink="https://github.com/dilini-ranaweera/dilinis-personal-website/tree/master"
         PersonalProjectImagePath="meme.jpg"

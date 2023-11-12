@@ -6,7 +6,7 @@ import Title from "./Title.jsx";
 function WorkExperienceGrid() {
   return (
     <div className="work-grid-wrapper">
-      <Title TitleName="My Work Experiences"/>
+      <Title TitleName="My Work Experiences" TitleClass="work-experiences-title"/>
       <Grid container className="grid-container" spacing={2}>
           <Grid item xs={4} className="grid-item">
               <WorkExperience

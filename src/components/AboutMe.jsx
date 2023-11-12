@@ -5,7 +5,7 @@ import CalculateIcon from "@mui/icons-material/Calculate";
 
 function AboutMe() {
   return (
-    <div className="about-me-wrapper">
+    <div className="about-me-wrapper" id="about-me">
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <Fade left="true" duration={1000} delay={500}>

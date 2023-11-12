@@ -48,6 +48,20 @@
   padding-top: 10%;
 }
 
+.navbar {
+  position: relative; 
+  width: 100%;
+  z-index: 1000;
+}
+
+.sticky {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .grid-item {
   display: flex;
 }
@@ -69,7 +83,7 @@
   padding-top: 10%;
 }
 
-.title-class {
+h2 {
   text-align: center;
   font-family: 'Lexend', sans-serif;
   font-size: 350%;

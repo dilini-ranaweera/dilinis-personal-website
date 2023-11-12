@@ -12,7 +12,7 @@ function Intro() {
           <br />
           Thank you for clicking on my website.
           <br />
-          My name is Dilini Ranaweera.
+          My name is Dilini Ranaweera. I am a junior at the University of Pennsylvania.
         </div>
       </Fade>
 
